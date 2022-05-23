@@ -1,0 +1,17 @@
+import os
+os.path.isdir('dir')
+os.path.exists('file.txt')
+os.path.isfile('/file.txt')
+print('Welcome to our File Directory Program!')
+directory = input = ('Enter the directory you would like to save your items in: ')
+name = input('Enter the name of your file')
+data = input = ('Enter your name, address, phone number here: ')
+
+file = input
+with open(file, 'w') as fileHandle:
+    fileHandle.write("name, address, phone number")
+
+filePath = 'fileFile.txt'
+with open(filePath, 'r'):
+    data = fileHandle.read()
+print(data)
